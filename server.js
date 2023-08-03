@@ -5,7 +5,10 @@ const mongoose = require("mongoose");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin:['https://netflix-clone-oorg.onrender.com/']
+})));
+
 app.use(express.json());
 
 mongoose
