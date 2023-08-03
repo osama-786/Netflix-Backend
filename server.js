@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
     },
 
 app.use(cors({
-    origin:['https://netflix-clone-oorg.onrender.com/']
+    origin:['https://netflix-clone-oorg.onrender.com']
 })));
 
 app.use(express.json());
